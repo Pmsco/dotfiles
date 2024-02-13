@@ -39,3 +39,6 @@ _load_settings "$HOME/.zsh/configs"
 
 # aliases
 [[ -f ~/.aliases ]] && source ~/.aliases
+
+# added automatically when purged fzf
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
