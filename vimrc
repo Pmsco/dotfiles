@@ -31,6 +31,7 @@ if !exists('g:loaded_matchit') && findfile('plugin/matchit.vim', &rtp) ==# ''
   runtime! macros/matchit.vim
 endif
 
+" Enable file specific indentation
 filetype plugin indent on
 
 augroup vimrcEx
